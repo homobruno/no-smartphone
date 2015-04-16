@@ -1,0 +1,57 @@
+---
+---
+
+@import "default";
+
+/*
+*******
+Actual Style
+*******
+*/
+
+html {
+  font-size: 120%;
+}
+
+body {
+	margin: 0;
+  background: black;
+  background-size: cover;
+	font: $font-size $font-family;
+  color: $primary-color;
+  @include mobile {
+    font: $font-size-mobile $font-family;
+  }
+}
+
+section {
+  margin-top: 15%;
+  text-align: center;
+  & h1, h2, h3, h4, h5, h6 {
+  	font-family: $alt-font-family;
+    text-transform: uppercase;
+  }
+  & h1 {
+    font-weight: 100;
+    font-size: 2em;
+  }
+  & h2 {
+    font-weight: 300;
+    font-size: 1em;
+  }
+}
+
+#cnt {
+  z-index: -100;
+  opacity: 0.6;
+}
+
+video {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: black url(../video/goa.jpg) no-repeat;
+  background-size: cover;
+  display: block;
+  transition: 1s opacity;
+}

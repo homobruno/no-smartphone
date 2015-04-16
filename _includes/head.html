@@ -1,0 +1,24 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Plain Description -->
+	<title>{{ site.title }}</title>
+	<meta name="description" content="{{site.tagline}}">
+	<link rel="icon" type="image/png" href="/assets/favicon.ico">
+
+	<!-- CSS & fonts -->
+	<link rel="stylesheet" href="assets/css/app.css">
+	<!-- Put your fonts here -->
+	{% if page.googlewebfonts %}
+	<link href='http://fonts.googleapis.com/css?family={{ page.googlewebfonts }}' rel='stylesheet' type='text/css'>
+	{% endif %}
+
+	<!--[if lt IE 9]>
+	<script>
+	document.createElement('video');
+	</script>
+	<![endif]-->
+
+</head>
