@@ -1,5 +1,7 @@
 # Ohana Hotels
 
+Stay with us and feel like Home
+
 ## Jekyll
 
 https://github.com/garrettboatman/Blank-Theme-Jekyll
