@@ -1,7 +1,7 @@
 # Site settings
-title: Ohana Hotels Pvt. Ltd.
-tagline: "Stay with us and feel like home"
-url: "http://ohana-hotels.github.io/" # The base hostname & protocol for your site. Use it if you need absolute URL's
+title: No Smartphone
+tagline: La cancellazione dei tempi morti
+url: http://no-smartphone.github.io/ # The base hostname & protocol for your site. Use it if you need absolute URL's
 
 # Social
 socialimg: /img/ohana-logo.jpg # be sure to change this image
@@ -10,9 +10,6 @@ github: ohana-hotels
 # Contact
 phone: ""
 email: ""
-
-# Google Analytics track ID
-google_analytics: UA-61932679-1
 
 # Use this for production :compressed
 sass:

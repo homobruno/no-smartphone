@@ -25,7 +25,7 @@ body {
 }
 
 section {
-  margin-top: 15%;
+  margin-top: 17%;
   text-align: center;
   & h1, h2, h3, h4, h5, h6 {
   	font-family: $alt-font-family;
@@ -34,6 +34,24 @@ section {
   & h1 {
     font-weight: 100;
     font-size: 2em;
+    position: relative;
+    width: 330px;
+    margin: auto;
+    & span.mega-octicon {
+      font-size: 180px;
+      position: absolute;
+      top: 73px;
+      left: 88px;
+    }
+    & span.ban {
+      opacity: .6;
+      top: 0;
+      left: 0;
+      position: absolute;
+      z-index: 10;
+      font-size: 330px;
+      color: #F00;
+    }
   }
   & h2 {
     font-weight: 300;
@@ -50,7 +68,7 @@ video {
   position: fixed; right: 0; bottom: 0;
   min-width: 100%; min-height: 100%;
   width: auto; height: auto; z-index: -100;
-  background: black url(../video/goa.jpg) no-repeat;
+  background: black url(../video/thunder.jpg) no-repeat;
   background-size: cover;
   display: block;
   transition: 1s opacity;
