@@ -1,15 +1,10 @@
 # Site settings
 title: No Smartphone
 tagline: La cancellazione dei tempi morti
-url: http://no-smartphone.github.io/ # The base hostname & protocol for your site. Use it if you need absolute URL's
+url: http://homobruno.github.io/no-smartphone/ # The base hostname & protocol for your site. Use it if you need absolute URL's
 
 # Social
-socialimg: /img/ohana-logo.jpg # be sure to change this image
-github: ohana-hotels
-
-# Contact
-phone: ""
-email: ""
+github: homobruno
 
 # Use this for production :compressed
 sass:
